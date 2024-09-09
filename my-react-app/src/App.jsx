@@ -1,11 +1,12 @@
-import Counter from './Components/MiniApps/Counter'
-import MyComponent from './Components/MyComponent'
+//
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
+import ColorPicker from './Components/MiniApps/ColorPicker'
 
 const App = () => {
   return (
     <>
-      <Counter />
-      <MyComponent />
+      <ColorPicker />
     </>
   )
 }
