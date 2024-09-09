@@ -1,12 +1,12 @@
 //
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import UpdaterFunc from './Components/UpdaterFunc'
+import ObjectUpdate from './Components/ObjectUpdate'
 
 const App = () => {
   return (
     <>
-      <UpdaterFunc />
+      <ObjectUpdate />
     </>
   )
 }
