@@ -1,11 +1,11 @@
-import ClickEvents from './Components/ClickEvents'
-import ProfilePicture from './Components/ProfilePicture'
+import Counter from './Components/MiniApps/Counter'
+import MyComponent from './Components/MyComponent'
 
 const App = () => {
   return (
     <>
-      <ClickEvents />
-      <ProfilePicture />
+      <Counter />
+      <MyComponent />
     </>
   )
 }
