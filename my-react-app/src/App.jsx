@@ -1,12 +1,12 @@
 //
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import ArrayUpdate from './Components/ArrayUpdate'
+import ArrayOfObjectUpdate from './Components/ArrayOfObjectUpdate'
 
 const App = () => {
   return (
     <>
-      <ArrayUpdate />
+      <ArrayOfObjectUpdate />
     </>
   )
 }
