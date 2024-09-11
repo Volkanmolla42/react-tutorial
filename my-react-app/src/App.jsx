@@ -1,12 +1,12 @@
 //
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import TodoList from './Components/MiniApps/TodoList'
+import UseEffectExm from './Components/UseEffectExm'
 
 const App = () => {
   return (
     <>
-      <TodoList />
+      <UseEffectExm />
     </>
   )
 }
