@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .card {
   border: 1px solid rgb(206, 206, 206);
   border-radius: 10px;
@@ -7,7 +14,6 @@
   text-align: center;
   max-width: 250px;
   display: inline-block;
-  font-family: Arial, sans-serif;
 
 }
 
@@ -135,4 +141,29 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+}
+
+.clock-container {
+  width: 100%;
+  height: 100vh;
+  background: center/cover;
+  position: relative;
+}
+
+
+
+
+.clock {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(202, 202, 202, 0.24);
+  border-radius: 20px;
+  padding: 20px 80px;
+  backdrop-filter: blur(5px);
+  color: wheat;
+  font-size: 7rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, .75);
 }
