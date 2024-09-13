@@ -1,12 +1,12 @@
 //
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import UseRefExm from './Components/UseRefExm'
+import StopWatch from './Components/MiniApps/StopWatch/StopWatch'
 
 const App = () => {
   return (
     <>
-      <UseRefExm />
+      <StopWatch />
     </>
   )
 }
