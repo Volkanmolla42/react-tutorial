@@ -1,12 +1,12 @@
 //
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import DigitalClock from './Components/MiniApps/DigitalClock'
+import CompA from './Components/useContextExm/CompA'
 
 const App = () => {
   return (
     <>
-      <DigitalClock />
+      <CompA />
     </>
   )
 }
